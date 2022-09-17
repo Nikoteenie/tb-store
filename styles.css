@@ -3,17 +3,14 @@ body {
   margin: 0px auto;
 }
 
-h1, h2 {
+.teenie-shops h1, footer {
   font-family: postino-std, serif;
 }
 
-h1 {
+.teenie-shops h1 {
   font-size: 30px;
 }
 
-h2 {
-  font-size: 18px;
-}
 
 .teenie-shops .container {
   border: 3px solid black;
@@ -24,17 +21,38 @@ h2 {
 }
 
 .teenie-shops .container a {
-    background-color: white;
-   font-family: obviously, sans-serif;
-  font-weight: 300;
-  font-size: 20px;
+  background-color: white;
   border: 3px solid black;
-  padding: 5px;
+  font-family: obviously, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
   margin: 10px auto;
+  padding: 5px;
+  transition: all 100ms ease-in-out;
+}
+
+.teenie-shops .container a:hover {
+  color: white;
+  background-color: red;
+  border: 3px solid black;
+}
+
+.teenie-shops footer{
+  font-size: 18px;
+  text-align: right;
+}
+
+.teenie-shops footer a{
+  color:black;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+  }
+
+.teenie-shops footer a:hover{
+  color: red;
 }
 
 
-.teenie-shops h1, h2 {
-  text-align: center;
-}
+
+
 

@@ -3,13 +3,22 @@ body {
   margin: 0px auto;
 }
 
+img {
+  display: block;
+  margin: 0px auto;
+}
+
+
 .teenie-shops h1, footer {
-  font-family: postino-std, serif;
+  font-family: ruddy, sans-serif;
+   text-align: center;
+  font-weight: 800;
 }
 
 .teenie-shops h1 {
-  font-size: 30px;
-}
+  font-size: 50px;
+ 
+  }
 
 
 .teenie-shops .container {
@@ -38,8 +47,7 @@ body {
 }
 
 .teenie-shops footer{
-  font-size: 18px;
-  text-align: right;
+  font-size: 25px;
 }
 
 .teenie-shops footer a{

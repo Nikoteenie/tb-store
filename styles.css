@@ -1,0 +1,40 @@
+body {
+  max-width: 350px;
+  margin: 0px auto;
+}
+
+h1, h2 {
+  font-family: postino-std, serif;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.teenie-shops .container {
+  border: 3px solid black;
+  max-width: 350px;
+  padding: 30px;
+  background-color: #FFC5FA;
+
+}
+
+.teenie-shops .container a {
+    background-color: white;
+   font-family: obviously, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  border: 3px solid black;
+  padding: 5px;
+  margin: 10px auto;
+}
+
+
+.teenie-shops h1, h2 {
+  text-align: center;
+}
+

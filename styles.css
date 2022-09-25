@@ -1,17 +1,16 @@
 body {
- background-image: url(./images/logo.png);
- background-size: 150px;
- background-repeat: repeat;
+  background-image: url(./images/logo.png);
+  background-size: 150px;
+  background-repeat: repeat;
 }
 
 .teenie-shops {
- max-width: 450px;
+  max-width: 450px;
   margin: 120px auto;
   padding: 20px;
   background-color: white;
   border: 5px solid black;
 }
-
 
 .teenie-shops h1,
 footer {
@@ -22,7 +21,6 @@ footer {
 
 .teenie-shops h1 {
   font-size: 45px;
-
 }
 
 .teenie-shops .container {
@@ -30,13 +28,13 @@ footer {
   max-width: 350px;
   padding: 30px;
   background-color: #8f66f2;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, .3);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .teenie-shops .container a {
   background-color: white;
   border: 3px solid black;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, .1);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
   font-family: obviously, sans-serif;
   font-size: 20px;
   font-weight: 300;
@@ -65,24 +63,23 @@ footer {
   color: red;
 }
 
-.teenie-shops .social-icons a{
+.teenie-shops .social-icons a {
   margin: 10px;
+  font-size: 20px;
 }
 
 @media (max-width: 700px) {
-  
   body {
-  background-size: 70px;
+    background-size: 70px;
   }
 
   .teenie-shops {
     margin: 100px 20px;
-    padding: 20px 0px 20px
+    padding: 20px 0px 20px;
   }
 
-  .teenie-shops .container{
-     padding: 20px;
-     max-width: 300px;
+  .teenie-shops .container {
+    padding: 20px;
+    max-width: 300px;
   }
-
 }

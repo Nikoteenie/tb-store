@@ -65,7 +65,7 @@ footer {
 
 .teenie-shops .social-icons a {
   margin: 10px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 @media (max-width: 700px) {
@@ -83,7 +83,7 @@ footer {
     max-width: 300px;
   }
 
-  .teenie-shops .container a{
+  .teenie-shops .container a {
     margin: 5px auto;
   }
 }
